@@ -25,7 +25,7 @@ include(ECMSetupVersion)
 include(ECMGeneratePriFile)
 include(CMakeDependentOption)
 
-option(BUILD_WITH_QT6 "Build qtkeychain with Qt 6" OFF)
+option(BUILD_WITH_QT6 "Build qtkeychain with Qt 6" ON)
 option(BUILD_TEST_APPLICATION "Build test application" OFF)
 option(BUILD_TRANSLATIONS "Build translations" ON)
 option(BUILD_SHARED_LIBS "Build dynamic library" ON)
